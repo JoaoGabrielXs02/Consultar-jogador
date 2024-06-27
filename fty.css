@@ -1,0 +1,75 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #63b5ce;
+}
+
+
+
+
+#Busca {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#Busca label {
+    display: block;
+    margin-bottom: 10px;
+    
+}
+
+#Busca input[type="text"] {
+    width: calc(100% - 80px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#Busca button {
+    width: 80px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#Busca button:hover {
+    background-color: #45a049;
+}
+
+
+#resultados {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 100px;
+    background-color: #71ffd0;
+    border-radius: 8px
+    
+}
+
+#titulo{
+    text-align: center;
+            margin-top: 50px; 
+
+}
+p{
+    font-family: Arial, sans-serif;
+}
+img{
+    position: absolute; 
+            top: 350px; 
+            
+            left: 700px; 
+            width: 300px; 
+            height: auto;
+
